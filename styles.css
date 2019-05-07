@@ -1,0 +1,166 @@
+body {
+  background-color: #eee;
+}
+
+#sidebar {
+    margin-top: -200px;
+}
+
+.form-signin {
+  border: 2px solid black;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #eee;
+  margin: 200px auto
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.submit-buttons {
+  display: flex;
+}
+
+.btn-block {
+  border-radius: 0px;
+  height: 25px;
+  width: 100px;
+  font-size: 16px;
+  line-height: 0.1;
+  text-align: center;
+}
+
+#submitbuttonthingy {
+  margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block; 
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    vertical-align:middle;
+    margin-left:160px
+}
+
+#submitbuttonthingy2 {
+  margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block; 
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    vertical-align:middle;
+}
+
+#forgot {
+  width: 150px;
+  margin-top: 6px;
+    margin-bottom: 5px;
+    display:inline-block; 
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    vertical-align:middle;
+    margin-left:5px
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block; 
+    vertical-align:middle;
+
+}
+
+#form-login-please {
+    width: auto;
+    border: 2px solid white;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px;
+}
+
+#inputUsername {
+  width: 260px;
+  margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block; 
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    vertical-align:middle;
+    margin-left:20px
+}
+
+#inputPassword {
+  width: 260px;
+  margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block; 
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    vertical-align:middle;
+    margin-left:20px
+}
+
+#submit {
+  width: 140px;
+  margin-top: 5px;
+    margin-bottom: 5px;
+    display:inline-block; 
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    vertical-align:middle;
+    margin-left:160px
+}
+
+.basic-addon {
+  display:inline-block;
+    *display: inline;     /* for IE7*/
+    zoom:1;              /* for IE7*/
+    float: left;
+    padding-top: 5px;
+    text-align: center;
+    width: 140px;
+    box-shadow: 2px 2px;
+    border: 2px solid white;
+}
+
+.error {
+  border: 1px solid black;
+  max-width: 250px;
+  margin-bottom: 5px;
+  padding: 20px;
+  background-color: #eee;
+  margin: 20px auto;
+  color: red;
+  text-align: center;
+}
+
+#copyright.hakim {
+  float: right;
+}
